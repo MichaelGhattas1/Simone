@@ -1,0 +1,1028 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.filter {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    position: relative;
+    background-image: url(../images/intro-bg.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav {
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.logo {
+    width: 25%;
+}
+
+.logo img {
+    width: 40%;
+    margin-left: 2rem;
+}
+
+.nav-list {
+    width: 50%;
+    margin-top: .5rem;
+}
+
+.nav-list ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-green {
+    background-color: #20c997;
+    color: #fff;
+}
+
+.font-green {
+    color: #20c997;
+}
+
+.nav-list a {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #fff;
+    margin: 0px 10px;
+    line-height: 20px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.center h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.center p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.center h1 {
+    margin-top: 0;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.animt::after {
+    content: '';
+    animation-name: move;
+    animation: move 20s infinite ease-in-out;
+}
+
+@keyframes move {
+    0% {
+        content: "I'm a | ";
+    }
+    1% {
+        content: "I'm a F|";
+    }
+    3% {
+        content: "I'm a Fr|";
+    }
+    4% {
+        content: "I'm a Fre|";
+    }
+    5% {
+        content: "I'm a Free|";
+    }
+    6% {
+        content: "I'm a Freel|";
+    }
+    7% {
+        content: "I'm a Freela|";
+    }
+    8% {
+        content: "I'm a Freelan|";
+    }
+    9% {
+        content: "I'm a Freelanc|";
+    }
+    10% {
+        content: "I'm a Freelance|";
+    }
+    11% {
+        content: "I'm a Freelancer. |";
+    }
+    12% {
+        content: "I'm a Freelancer.  ";
+    }
+    13% {
+        content: "I'm a Freelancer. |";
+    }
+    14% {
+        content: "I'm a Freelanc|";
+    }
+    15% {
+        content: "I'm a Freelan|";
+    }
+    16% {
+        content: "I'm a Freela|";
+    }
+    17% {
+        content: "I'm a Freel|";
+    }
+    18% {
+        content: "I'm a Free|";
+    }
+    19% {
+        content: "I'm a Fre|";
+    }
+    20% {
+        content: "I'm a Fr|";
+    }
+    21% {
+        content: "I'm a F|";
+    }
+    22% {
+        content: "I'm a |";
+    }
+    23% {
+        content: "I'm a P|";
+    }
+    24% {
+        content: "I'm a Ph|";
+    }
+    25% {
+        content: "I'm a Pho|";
+    }
+    26% {
+        content: "I'm a Phot|";
+    }
+    27% {
+        content: "I'm a Photo|";
+    }
+    28% {
+        content: "I'm a Photog|";
+    }
+    29% {
+        content: "I'm a Photogr|";
+    }
+    30% {
+        content: "I'm a Photogra|";
+    }
+    31% {
+        content: "I'm a Photograp|";
+    }
+    32% {
+        content: "I'm a Photograph|";
+    }
+    33% {
+        content: "I'm a Photographe|";
+    }
+    34% {
+        content: "I'm a Photographer. |";
+    }
+    35% {
+        content: "I'm a Photographer.  ";
+    }
+    36% {
+        content: "I'm a Photographer. |";
+    }
+    37% {
+        content: "I'm a Photographe|";
+    }
+    38% {
+        content: "I'm a Photograph|";
+    }
+    39% {
+        content: "I'm a Photograp|";
+    }
+    40% {
+        content: "I'm a Photogra|";
+    }
+    41% {
+        content: "I'm a Photogr|";
+    }
+    42% {
+        content: "I'm a Photog|";
+    }
+    43% {
+        content: "I'm a Photo|";
+    }
+    44% {
+        content: "I'm a Phot|";
+    }
+    45% {
+        content: "I'm a Pho|";
+    }
+    46% {
+        content: "I'm a Ph|";
+    }
+    47% {
+        content: "I'm a P|";
+    }
+    48% {
+        content: "I'm a |";
+    }
+    49% {
+        content: "I'm a D|";
+    }
+    50% {
+        content: "I'm a De|";
+    }
+    51% {
+        content: "I'm a Des|";
+    }
+    52% {
+        content: "I'm a Desi|";
+    }
+    53% {
+        content: "I'm a Desig|";
+    }
+    54% {
+        content: "I'm a Design|";
+    }
+    55% {
+        content: "I'm a Designe|";
+    }
+    56% {
+        content: "I'm a Designer.|";
+    }
+    57% {
+        content: "I'm a Designer. ";
+    }
+    58% {
+        content: "I'm a Designe|";
+    }
+    59% {
+        content: "I'm a Design|";
+    }
+    60% {
+        content: "I'm a Desig|";
+    }
+    61% {
+        content: "I'm a Des|";
+    }
+    62% {
+        content: "I'm a De|";
+    }
+    63% {
+        content: "I'm a D|";
+    }
+    64% {
+        content: "I'm a|";
+    }
+    65% {
+        content: "I'm |";
+    }
+    66% {
+        content: "I'|";
+    }
+    67% {
+        content: "|";
+    }
+    68% {
+        content: "I'|";
+    }
+    69% {
+        content: "I'm |";
+    }
+    70% {
+        content: "I'm S|";
+    }
+    71% {
+        content: "I'm Si|";
+    }
+    72% {
+        content: "I'm Sim|";
+    }
+    73% {
+        content: "I'm Simo|";
+    }
+    74% {
+        content: "I'm Simon|";
+    }
+    75% {
+        content: "I'm Simone |";
+    }
+    76% {
+        content: "I'm Simone O|";
+    }
+    77% {
+        content: "I'm Simone Ol|";
+    }
+    78% {
+        content: "I'm Simone Oli|";
+    }
+    79% {
+        content: "I'm Simone Oliv|";
+    }
+    80% {
+        content: "I'm Simone Olivi|";
+    }
+    81% {
+        content: "I'm Simone Olivia .|";
+    }
+    82% {
+        content: "I'm Simone Olivia . ";
+    }
+    83% {
+        content: "I'm Simone Olivia .|";
+    }
+    84% {
+        content: "I'm Simone Olivia . ";
+    }
+    85% {
+        content: "I'm Simone Olivi|";
+    }
+    86% {
+        content: "I'm Simone Oliv|";
+    }
+    87% {
+        content: "I'm Simone Oli|";
+    }
+    88% {
+        content: "I'm Simone Ol|";
+    }
+    89% {
+        content: "I'm Simone O|";
+    }
+    90% {
+        content: "I'm Simone|";
+    }
+    91% {
+        content: "I'm Simon|";
+    }
+    92% {
+        content: "I'm Simo|";
+    }
+    93% {
+        content: "I'm Sim|";
+    }
+    94% {
+        content: "I'm Si|";
+    }
+    95% {
+        content: "I'm S|";
+    }
+    96% {
+        content: "I'm ";
+    }
+    97% {
+        content: "I'm|";
+    }
+    98% {
+        content: "I'";
+    }
+    99% {
+        content: "I";
+    }
+    100% {
+        content: "|";
+    }
+}
+
+.btn {
+    width: 10%;
+    border: 2px solid #20c997;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+    background-color: transparent;
+    font-size: 1.2rem;
+    padding: .75rem;
+}
+
+.btn:hover {
+    background-color: #20c997;
+    color: #fff;
+}
+
+.color-switcher {
+    position: fixed;
+    width: 2%;
+    height: 5vh;
+    right: 0;
+    top: 33.33%;
+    background-color:darkgrey;
+    border-radius: 5px 0px 0px 5px;
+}
+.cc
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+.down-arrow {
+    position: relative;
+    top: 100px;
+    left: 0;
+    transform: rotateX(180deg) scale(2.5, 1.5);
+    
+    animation: arrow 2s infinite alternate;
+    transition: top ease-in-out;
+}
+.down-arrow h3 
+{
+    font-weight: 200;
+}
+
+@keyframes arrow {
+    0% {
+        top: 100px
+    }
+    5% {
+        top: 105px
+    }
+    10% {
+        top: 110px
+    }
+    15% {
+        top: 115px
+    }
+    20% {
+        top: 120px
+    }
+    25% {
+        top: 125px
+    }
+    30% {
+        top: 130px
+    }
+    35% {
+        top: 135px
+    }
+    40% {
+        top: 140px
+    }
+    45% {
+        top: 145px
+    }
+    50% {
+        top: 150px
+    }
+    55% {
+        top: 145px
+    }
+    60% {
+        top: 140px
+    }
+    65% {
+        top: 135px
+    }
+    70% {
+        top: 130px
+    }
+    75% {
+        top: 125px
+    }
+    80% {
+        top: 120px
+    }
+    85% {
+        top: 115px
+    }
+    90% {
+        top: 110px
+    }
+    95% {
+        top: 105px
+    }
+    100% {
+        top: 100px
+    }
+}
+.section2
+{
+    display: flex ;
+    padding: 3rem;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
+.about-me-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10%;
+    font-family: sans-serif;
+ 
+   
+}
+
+.about-me h2
+{ 
+      transform: scale(6,6);
+      color: #dee3e4;
+      opacity: .5;
+}
+.line 
+{
+    width: 70% ;
+    border: 2px solid #20c997 ;
+}
+.know-more-container
+{   
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.know-more-container p
+{
+    transform: scale(2); 
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.text-data
+{
+    width: 90%;
+    padding: 2rem;
+    display: flex ;
+    justify-content:flex-start;
+
+}
+.text-data .text
+{
+    width: 66.666%;
+    padding: 1rem ; 
+    display: flex;
+ flex-direction: column;
+justify-content: center;
+}
+.text-data .text p
+{   
+    
+    padding: .25rem;
+    width: 90%;
+    line-height: 1.2;
+    font-size: 1.2rem;
+   color:  #4c4d4d ;
+}
+.text h2
+{
+    margin: 0;
+}
+.text-data .data
+{   
+    width: 33.33%;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+.data h3 
+{
+    font-family: sans-serif;
+    font-weight: 600 ;
+}
+.norm
+{
+    font-weight: 300;
+    color:#4c4d4d;
+}
+.norm1
+{
+    font-weight: 300;
+    color: #20c997;
+    
+}
+.p-1
+{
+    padding: 2rem 0px ;
+}
+.data .line-1
+{
+    width: 90%;
+    border:1px solid #eaeaea;
+}
+.btn1
+{   padding: .75rem;
+    width: 40%;
+    font-size:1rem;
+    border: none;
+    border-radius: 25px;
+}
+.counter 
+{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+.item
+{  
+    width:15%;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    color:#6c757d;
+}
+.item h2
+{
+font-weight:600;
+letter-spacing: 2px;
+font-size: 2rem;
+margin-bottom: 0;
+}
+.item p 
+{
+    font-weight: 400;
+}
+.line-v
+{  
+    border: 1px dotted #6c757d;
+    transform: rotate(180deg);
+}
+.bg-light
+{
+    background-color: #f8f9fa;
+    padding: 50px;
+}
+.service-table
+{
+    width: 85%;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+.serve-child
+{   display: flex;
+    justify-content: center;
+    width: 45%;
+}
+.icon
+{   
+    margin-top: .5rem;
+    width: fit-content;
+    height: fit-content;
+    padding: .4rem;
+    transform: scale(3) translate(-50%,50%) ;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.sevice-name
+{   
+    padding-left: .5rem;
+    width: 75%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resume-container
+{
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 3rem 5rem;
+}
+.education
+{
+    width: 45%;
+    display: flex ;
+    flex-direction: column ;
+}
+.interval
+{
+    display: flex ;
+    padding: 1.5rem;
+    flex-direction: column ;
+    border:1px solid #dee2e6!important;
+    border-radius: .25rem;
+}
+.w-20
+{
+    padding: .25rem;
+    width:15%;
+font-size: .8rem;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.font-red
+{
+    color: #dc3545!important;
+}
+.w-20 p 
+{
+    margin: 0 ;
+    padding: 0;
+}
+.interval h3 
+{
+    margin:.5rem 0  ;
+    font-size: 1.5rem;
+}
+.font-red p 
+{
+    margin: 0 0 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.w-85 p 
+{
+    padding: .25rem; 
+    margin: 0rem auto .25rem;
+    font-size: 1.2rem;
+}
+.mb-1
+{
+    margin-bottom: 1rem;
+}
+.percentage
+{
+    display: flex;
+    justify-content: space-between;
+}
+.perent 
+{
+    width:100% ;
+    height: .5rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+.child 
+{
+    height: .5rem;
+    border-radius: .25rem 0 0 .25rem;
+}
+.w-65
+{
+    width: 65%;
+}
+.w-95
+{
+    width: 95%;
+}
+.w-80
+{
+    width: 80%;
+}
+.op-0
+{
+    opacity: 0;
+}
+.w-70
+{
+    width: 70%;
+}
+.w-60
+{
+    width: 60%;
+}
+.w-99
+{
+    width: 99%;
+}
+.w-30
+{
+    width: 30%;
+}
+.Skills h4 
+{
+    font-weight: 500;
+}
+.flik 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn4 
+{
+    font-size: 1.25rem;
+    width: 18%;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: .8rem 2rem;
+    text-align: center;
+    border-radius: 2.5rem;
+    background-color: #fff;
+    border: 2px solid #6c757d;
+    color: #6c757d;
+}
+.btn4:hover
+{
+    font-size: 1.25rem;
+    width: 18%;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: .8rem 2rem;
+    text-align: center;
+    border-radius: 2.5rem;
+    background-color:#4c4d4d;
+    color:#fff ;
+}
+.p-3
+{
+    padding:5rem 3rem;
+}
+.mywork
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rev
+{
+    position: relative;
+    top: 20%;
+}
+.list
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.projects 
+{
+    display: flex;
+    width: 90%; 
+    justify-content: space-evenly;
+    padding: 1rem 1rem 0;
+}
+.c1 
+{
+    width: 33.33%;
+    display: flex ;
+    flex-flow: column ;
+}
+.fullsize 
+{
+    padding: .75rem;
+}
+.fullsize img 
+{
+    width: 100%;
+    border-radius: 1rem;
+}
+.client-speak
+{
+    display: flex;
+    font-family: sans-serif;
+    color: #212529!important;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.client-speak h2 
+{
+    margin:0px auto;
+}
+.client-speak p
+{
+    line-height: 1.7;
+    width: 90%;
+}
+
+.name p
+{
+    color: #6c757d!important;
+
+    width:100%;
+    line-height: 1;
+
+    
+}
+.client-container
+{
+    display: flex;
+    flex-direction:column ;
+    padding: 1rem;
+}
+.w-48
+{
+    width: 40%;
+}
+.photo-name
+{
+    display: flex;
+}
+.client-img 
+{
+    width: 30%;
+
+}
+.client-img img 
+{  
+    margin: 0;
+    width: 60%;
+    border-radius: 50%;
+   transform: translate(25%,0);
+}
+.name 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.rate 
+{
+    display: flex; 
+    color: #ffc107;
+}
+.con
+{
+    display: flex;
+    justify-content: center;
+}
+.ff
+{
+    font-family: sans-serif;
+    color: #4c4d4d;
+}
+.client-container1
+{
+    display: flex;
+    flex-direction:column ;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem;
+}
+.note
+{
+    display: flex;
+    flex-direction: column;
+}
+.p-5
+{
+    padding: 0.5rem 2.5rem;
+}
+.container1{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.w-50
+{
+    width: 50%;
+}
+.w-90
+{
+    width: 90%;
+}
+.p-9
+{
+    padding: 3rem 12rem;
+}
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+}
+.right
+{
+    display: flex;
+    justify-content: space-around;
+}
+.ml-1{
+    margin-left: .5rem;
+}
